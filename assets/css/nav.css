@@ -1,0 +1,100 @@
+/*Version Desktop*/
+/*******************************
+CSS COMMUN
+*******************************/
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+@font-face {
+    font-family: "breeserif";
+    src: url(../fonts/bree-serif-2-cufonfonts/BreeSerif-Regular.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "breeserif";
+    src: url(../fonts/bree-serif-2-cufonfonts/Bree\ Serif\ Bold.otf);
+    font-weight: bold;
+}
+
+
+html {
+    background-color: #FEFEF1;
+}
+
+
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+nav a {
+    color: #071F5C;
+    text-decoration: none;
+    
+    font-family: "breeserif";
+}
+
+nav {
+    display: flex;
+    width: 500px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    border-radius: 5px;
+    color: white;
+    background-color: #071F5C;
+    text-decoration: none;
+    font-family: "breeserif";
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 34px;
+    padding-right: 34px;
+
+}
+
+
+
+
+@media screen and (max-width:767px) {
+
+    nav {
+        color: #071F5C;
+        text-decoration: none;
+        text-transform: uppercase;
+        flex-direction: column;
+        font-family: "breeserif";
+
+    }
+
+    header img {
+
+        padding: 5px;
+        width: 100px;
+    }
+
+
+    .flex-header {
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+
+    nav .button {
+        display: none;
+    }
+
+   
+
+}
+

@@ -1,0 +1,578 @@
+/*Version Desktop*/
+/*******************************
+CSS COMMUN
+*******************************/
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+@font-face {
+    font-family: "breeserif";
+    src: url(../fonts/bree-serif-2-cufonfonts/BreeSerif-Regular.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "breeserif";
+    src: url(../fonts/bree-serif-2-cufonfonts/Bree\ Serif\ Bold.otf);
+    font-weight: bold;
+}
+
+
+html {
+    background-color: #FEFEF1;
+}
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+nav a {
+    color: #071F5C;
+    text-decoration: none;
+    
+    font-family: "breeserif";
+}
+
+nav {
+    display: flex;
+    width: 500px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    border-radius: 5px;
+    color: white;
+    background-color: #071F5C;
+    text-decoration: none;
+    font-family: "breeserif";
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 34px;
+    padding-right: 34px;
+
+}
+
+ul {
+    /*agit sur toutes les balises ul du sites*/
+    padding: 0;
+    /*supprime le padding-left appliqué par le navigateur*/
+    list-style: none;
+    /*supprime les puces*/
+}
+
+p {
+    font-family: lato;
+    color: #071F5C;
+    font-size: 20px;
+}
+
+h1 {
+    color: #071F5C;
+    font-family: "breeserif";
+    font-size: 56px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #071F5C;
+    font-family: "breeserif";
+    font-weight: regular;
+    font-size: 36px;
+}
+
+
+
+header {
+
+    background-image: url("../img/header.png");
+
+background-size: contain; 
+background-repeat: no-repeat;
+    background-color: #FEFEF1;
+    color: #071F5C;
+    padding: 20px 30px 10px;
+    height: 645px;
+}
+
+.logo {
+    padding-top: 40px;
+}
+
+
+
+
+.blue {
+    color: #071F5C;
+    text-decoration: none;
+}
+
+
+
+header h1 {
+    width: 40%
+
+}
+
+
+
+main {
+    background-color: #FEFEF1;
+}
+
+.clients {
+    display: flex;
+    justify-content: center;
+}
+
+.clients article {
+    background-color: #071F5C;
+    text-align: center;
+    border-radius: 15px;
+    padding: 40px;
+    width: 50%;
+    margin: 25px;
+}
+
+
+
+.clients p {
+    color: white;
+}
+
+.presse {
+    text-align: center;
+    justify-content: center;
+}
+
+.reassurance {
+    text-align: center;
+    color: white;
+    justify-content: center;
+    background-color: #071F5C;
+}
+
+.reassurance article {
+    padding: 25px;
+}
+
+.presse img {
+    width: 175px;
+}
+
+.reassurance p {
+    color: white;
+}
+
+.flex-article {
+    text-align: center;
+}
+
+
+
+.container {
+    max-width: 1700px;
+    margin: auto;
+}
+
+.conso {
+    display: flex;
+}
+
+.pedago {
+    display: flex;
+}
+
+.avantages {
+    display: flex;
+}
+
+.avantages article {
+    text-align: center;
+}
+
+.presse {
+    display: flex;
+}
+
+.reassurance {
+    display: flex;
+    height: 250px;
+    align-items: center;
+    background-color: #071F5C;
+}
+
+.reassurance article {
+    width: 25%;
+
+}
+
+.h1bold {
+    text-align: center;
+    font-weight: bold;
+    margin: 75px;
+}
+
+.presse article {
+    margin: 50px;
+    width: 33%;
+}
+
+.avantages article {
+    margin: 25px;
+}
+
+.phone {
+    width: 50%
+}
+
+.phonetext {
+    width: 50%;
+
+}
+
+.conso article {
+    width: 50%;
+    margin: 100px;
+}
+
+.pedago article {
+    width: 50%;
+    margin: 100px;
+}
+
+.stores {}
+
+.button {
+    border-radius: 5px;
+    color: white;
+    background-color: #071F5C;
+    text-decoration: none;
+    font-family: "breeserif";
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 34px;
+    padding-right: 34px;
+}
+
+
+footer {
+    background-color: #FEFEF1;
+    color: #071F5C;
+    max-width: 1700px;
+    margin: 25px;
+    
+
+}
+
+form button {
+    border-radius: 5px;
+    color: white;
+    background-color: #071F5C;
+    text-decoration: none;
+    font-family: "breeserif";
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 34px;
+    padding-right: 34px;
+    border: none;
+
+}
+
+footer input {
+    background: none;
+    text-decoration: none;
+    border: none;
+    padding-right: 220px;
+}
+
+.formborder {
+    border: solid;
+    border-color: #071F5C;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+
+
+
+footer ul {
+    display: flex;
+}
+
+footer ul li {
+    margin-right: 30px;
+    font-family: lato;
+   
+
+}
+
+.flexend {
+    justify-content: flex-end;
+}
+
+
+.avantages article{
+    width: 100%;
+}
+
+.clients article{
+    width: 100%
+}
+
+.presse article{
+    width: 100%;
+}
+
+.reassurance article {
+    width: 100%;
+
+}
+
+.phone {
+    width: 100%
+}
+
+.phonetext {
+    width: 100%;
+
+}
+
+.flexfooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+/*Version Mobile*/
+@media screen and (max-width:767px) {
+
+    .container{
+        max-width: 100%; /*on fait passer la largeur de la class container à 100%*/
+    }
+
+
+p{
+    font-size: 16px;
+}
+
+h1{
+    font-size: 26px;
+}
+
+h2{
+    font-size: 20px;
+   
+
+}
+
+article{
+    width: 100%;
+}
+
+
+.avantages {
+    flex-direction: column;
+    align-items: center;
+}
+
+.avantages img {
+    width: 10%;
+}
+
+.clients {
+    flex-direction: column;
+}
+
+.presse {
+    flex-direction: column;
+    align-items: center;
+}
+
+.presse img {
+    width: 20%;
+}
+
+.reassurance {
+    flex-direction: column;
+    height: 700px;
+}
+
+.reassurance img{
+width : 10%;
+}
+
+.clients img{
+    width : 25%;
+    }
+
+.flexfooter {
+        flex-direction: column;
+       
+        
+    }
+
+footer article {
+    margin-bottom: 50px;
+}
+
+.formborder {
+    
+    border: solid;
+    border-color: #071F5C;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 350px;
+}
+
+.conso{
+    flex-direction: column;
+}
+
+.pedago{
+    flex-direction: column-reverse;
+}
+
+.pedago img{
+    width: 100%;
+}
+
+.pedago article {
+    width: 50%;
+    margin: 20px;
+}
+
+
+.conso img{
+    width: 100%;
+}
+
+.h1bold { 
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+
+.clients{
+    align-items: center;
+}
+
+.clients article {
+    background-color: #071F5C;
+    text-align: center;
+    border-radius: 15px;
+    padding: 30px;
+    width: 50%;
+    margin: 25px;
+}
+
+nav {
+    color: #071F5C;
+    text-decoration: none;
+    text-transform: uppercase;
+    flex-direction: column;
+    font-family: "breeserif";
+
+}
+
+header img {
+
+    padding: 5px;
+    width: 100px;
+}
+
+
+.flex-header {
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+nav .button {
+    display: none;
+}
+
+.conso {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-items: center;
+}
+
+.pedago { 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0;
+    align-items: center;
+}
+
+header {
+
+    background-image: url("../img/header.png");
+
+    background-size: cover;
+
+    background-color: #FEFEF1;
+    color: #071F5C;
+    padding: 20px 30px 10px;
+    height: 290px;
+}
+
+.flexend {
+    justify-content: center
+}
+
+footer nav {
+    display: flex;
+    width: 500px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.button {
+    border-radius: 5px;
+    color: white;
+    background-color: #071F5C;
+    text-decoration: none;
+    font-family: "breeserif";
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 34px;
+    padding-right: 34px;
+
+}
+
+.conso article {
+    width: 50%;
+    margin: 5px;
+}
+
+.avantages article {
+    margin: 10px;
+}
+
+footer {
+    background-color: #FEFEF1;
+    color: #071F5C;
+    
+
+}
+
+footer input {
+    background: none;
+    text-decoration: none;
+    border: none;
+    padding-right: 0px;
+}
+
+}
+
+
+

@@ -1,0 +1,145 @@
+
+header {
+
+    background-image: none;
+
+    background-size: cover;
+
+    background-color: #FEFEF1;
+    color: #071F5C;
+    padding: 20px 30px 10px;
+    height: 645px;
+}
+.container2{
+    max-width: 1500px;
+}
+.doublephone {
+    width: 80%
+}
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    width: 100%;
+    max-width: 1412px;
+    margin: 80px 0px 80px 20px;
+    padding: 20px;
+ }
+  
+  .product-container img {
+    width: 100%;
+    max-width: 700px;
+    margin-right: 20px;
+    border-radius: 10px;
+  }
+  
+  .product-info {
+    width: 55%;
+    max-width: 400px;
+  }
+  
+  .product-info h1 {
+    font-size: 60px;
+    margin: 0;
+    margin-bottom: 25px;
+  }
+h3 {
+    font-family: lato;
+    color: #071F5C;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+  .product-info .price {
+    color: #071F5C;
+    font-family: "breeserif";
+    font-weight: regular;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  
+  .product-info .description {
+    font-family: lato;
+    color: #071F5C;
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 25px;
+  }
+  
+  .rating {
+    font-family: lato;
+    color: #071F5C;
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 25px;
+  }
+  
+  .star {
+    color: #071F5C;
+  }
+  
+  .quantity {
+    margin-bottom: 10px;
+    display:flex;
+    align-items: center;
+
+  }
+.button{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.boutonq{
+    width: 120px;
+    height: 39px;
+    border-radius: 5px;
+    background-color: #FEFEF1;
+}
+  .quantity img {
+    margin-right: 10px;
+    width: 39px;
+    height: 36px;
+  }
+  
+  .picto {
+    margin-right: 10px;
+  }
+  .quantity label {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .specs {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: disc;
+    font-family: lato;
+    color: #071F5C;
+    font-size: 18px;
+  }
+
+  .column {
+    flex-basis: 50%;
+  }
+  
+  .column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .column li {
+    margin-bottom: 5px;
+  }
+.conso{
+        margin-top: 199px;
+}
+.conso2{
+    margin-top: -42px;
+}
+.reassurance{
+    margin-top: 150px;
+}
